@@ -22,7 +22,7 @@ SELECT * FROM A RIGHT JOIN B ON A.column1 = B.column1 RIGHT JOIN C ON A.column2 
 - 返回左表（左外连接）和右表（右外连接）中所有的行。
 - 如果在另一个表中没有匹配的行，则对应的值为 `NULL` 。
 
-![](Pasted%20image%2020240801194713.png)
+![](../Pasted%20image%2020240801194713.png)
 ### 2、查找最受欢迎的老师
 假设学生表名为 `students` ，包含列 `student_id` （学生 ID）、`student_name` （学生姓名）。课程表名为 `courses` ，包含列 `course_id` （课程 ID）、`course_name` （课程名称）、`teacher_name` （老师姓名）。选课表名为 `enrolls` ，包含列 `student_id` （学生 ID）、`course_id` （课程 ID）。
 以下是可能的 SQL 查询语句来找出受欢迎的老师姓名：
